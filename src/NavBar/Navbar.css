@@ -13,8 +13,6 @@ color: #fa600d !important;
     font-weight: 600;
     background-color: #fff; */
 
-
-
     border-width:0px;
   position:absolute;
   left:0px;
@@ -37,6 +35,9 @@ color: #fa600d !important;
 
     
 } 
+#OptumLogoAnchor{
+  width: 0;
+}
 a.navbar-brand.nav-title:hover {
     color: #fa600d !important;
 }
