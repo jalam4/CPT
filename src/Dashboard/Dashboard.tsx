@@ -6,7 +6,7 @@ import { DASHBOARD_REPORT } from "../constants";
 
 const Dashboard = () => {
     return (
-        <div>
+        <div data-testid="TestingDashboard">
             <SideBar></SideBar>
             <div className="col-md-12 bg-mainclass  wrap-element" >
              {/* <img src={dashboardimg} alt="Dashboard"></img> */}

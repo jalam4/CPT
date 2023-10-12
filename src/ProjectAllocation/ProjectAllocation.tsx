@@ -1317,7 +1317,7 @@ useEffect(()=>{
                     
                   }}
                   // maxDate={formValues.enddDate !== null ? formValues.enddDate : new Date('December 31, 2100')}
-                  onChange={setAllocationStartDate}
+                  onChange={(e: any)=>setAllocationStartDate(e)}
                   maxDate={allocationEndDate !== null ? allocationEndDate : new Date('December 31, 2100')}
                   value={allocationStartDate}
                   format="MM/dd/yyyy"
@@ -1341,7 +1341,7 @@ useEffect(()=>{
                     
                   }}
                   minDate={allocationStartDate !== null ? allocationStartDate : new Date('December 31, 2000')}
-                  onChange={setAllocationEndDate}
+                  onChange={(e: any)=>setAllocationEndDate(e)}
                   value={allocationEndDate}
                   format="MM/dd/yyyy"
                   dayPlaceholder="DD"
@@ -1971,7 +1971,7 @@ const AddModal = (props: any) => {
                     
                   }}
                   maxDate={allocationEndDate !== null ? allocationEndDate : new Date('December 31, 2100')}
-                  onChange={setAllocationStartDate}
+                  onChange={(e: any)=>setAllocationStartDate(e)}
                   value={allocationStartDate}
                   format="MM/dd/yyyy"
                   dayPlaceholder="DD"
@@ -1993,7 +1993,7 @@ const AddModal = (props: any) => {
                     
                   }}
                   minDate={allocationStartDate !== null ? allocationStartDate : new Date('December 31, 2000')}
-                  onChange={setAllocationEndDate}
+                  onChange={(e: any)=>setAllocationEndDate(e)}
                   value={allocationEndDate}
                   format="MM/dd/yyyy"
                   dayPlaceholder="DD"

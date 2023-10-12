@@ -1,5 +1,5 @@
 export const LOGINPAGE = "/";
-// export const MAINPAGE = "/Dashboard";
+export const MAINPAGE = "/Main";
 export const ABOUTUS = "/AboutUs";
 export const ALLOCATIONRESOURCERPOT = "/Report/AllocationResourceReport";
 export const HOLIDAYLISTRPOT = "/Report/HolidayListReport";

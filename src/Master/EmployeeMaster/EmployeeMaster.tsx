@@ -343,7 +343,7 @@ useEffect(()=>{
   //end constants for export
 
   return (
-    <div>
+    <div data-testid="TestingEmployee">
       <SideBar></SideBar>
       {isLoading ? <div className="SpinnerLoader" style={{height:'110vh',textAlign:'center', justifyContent:'center', margin:'auto', display:'flex'}}>
         <RotatingLines
